@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Study Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Optional but recommended sanitizer -->
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.2/dist/purify.min.js"></script>
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1>📚 AI Study Assistant</h1>
+        </div>
+
+        <label for="topic">Enter a Topic:</label>
+        <input type="text" id="topic" placeholder="e.g. Photosynthesis or Quantum Physics" />
+
+        <div class="button-group">
+            <button id="summarizeBtn">Summarize</button>
+            <button id="quizBtn">Generate Quiz</button>
+            <button id="explainBtn">Explain Simply</button>
+        </div>
+
+        <div class="output-container">
+            <button id="copyBtn" class="copy-btn" style="display: none;">
+                📋 Copy
+            </button>
+            <div id="output" class="output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
