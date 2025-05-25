@@ -82,9 +82,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Your Name -  Moiz Khatri 
 
-Project Link: [https://github.com/yourusername/ai-study-assistant](https://github.com/yourusername/ai-study-assistant)
+Project Link: [https://github.com/Moizkh3/ai-study-assistant](https://github.com/Moizkh3/ai-study-assistant)
 
 ---
 
